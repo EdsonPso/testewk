@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/02/28 09:50:45.000.078,=C:\Users\Pai\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/04 08:50:48.000.891,=C:\Users\Pai\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/05 11:56:04.000.344,=C:\Users\Pai\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/07 21:11:19.000.735,=C:\Users\Pai\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/07 21:14:27.000.950,=C:\Users\Pai\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/06/07 21:18:24.000.928,C:\Users\Pai\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Pai\Documents\Embarcadero\Studio\Projects\testewk\fontes\Unit_princilal.dfm</Transaction>
+    <Transaction>2024/06/07 21:18:24.000.928,C:\Users\Pai\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Pai\Documents\Embarcadero\Studio\Projects\testewk\fontes\Unit_princilal.pas</Transaction>
+    <Transaction>2024/06/07 21:18:49.000.820,C:\Users\Pai\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\Pai\Documents\Embarcadero\Studio\Projects\testewk\fontes\Unit_DataComponent.pas</Transaction>
+    <Transaction>2024/06/07 21:18:49.000.820,C:\Users\Pai\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\Pai\Documents\Embarcadero\Studio\Projects\testewk\fontes\Unit_DataComponent.dfm</Transaction>
+    <Transaction>2024/06/07 21:19:39.000.357,C:\Users\Pai\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Pai\Documents\Embarcadero\Studio\Projects\testewk\Teste_wk_pedido_venda.dproj</Transaction>
+    <Transaction>2024/06/08 12:59:15.000.182,C:\Users\Pai\Documents\Embarcadero\Studio\Projects\testewk\fontes\Unit_principal.dfm=C:\Users\Pai\Documents\Embarcadero\Studio\Projects\testewk\fontes\Unit_princilal.dfm</Transaction>
+    <Transaction>2024/06/08 12:59:15.000.182,C:\Users\Pai\Documents\Embarcadero\Studio\Projects\testewk\fontes\Unit_principal.pas=C:\Users\Pai\Documents\Embarcadero\Studio\Projects\testewk\fontes\Unit_princilal.pas</Transaction>
+  </Transactions>
+</BorlandProject>

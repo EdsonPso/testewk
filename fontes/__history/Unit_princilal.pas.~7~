@@ -1,0 +1,75 @@
+unit Unit_princilal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons, Data.DB,
+  Vcl.ExtCtrls, Vcl.Grids, Vcl.DBGrids, Vcl.WinXCtrls;
+
+type
+  TFormPrincipal = class(TForm)
+    GroupBoxCliente: TGroupBox;
+    GroupBoxPedido: TGroupBox;
+    GroupBoxProdutosPedido: TGroupBox;
+    LabelCodigo: TLabel;
+    EditNomeCliente: TEdit;
+    LabelNome: TLabel;
+    BitBtn2: TBitBtn;
+    EditCidade: TEdit;
+    LabelCidade: TLabel;
+    EditUF: TEdit;
+    LabelUF: TLabel;
+    BitBtnGravaPedido: TBitBtn;
+    BitBtnFechar: TBitBtn;
+    Edit6: TEdit;
+    Edit7: TEdit;
+    Button1: TButton;
+    BitBtnCancela: TBitBtn;
+    DBGridPodutosPedido: TDBGrid;
+    LabelCodigoProduto: TLabel;
+    EditDescricaoProduto: TEdit;
+    LabelDescricaoProduto: TLabel;
+    LabelVlrUnitario: TLabel;
+    EditVlrUnitario: TEdit;
+    LabelValorTotal: TLabel;
+    EditValorTotal: TEdit;
+    BitBtn8: TBitBtn;
+    BitBtn9: TBitBtn;
+    Bevel1: TBevel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    LabelNrPedido: TLabel;
+    LabelEmissao: TLabel;
+    LabelValorotal: TLabel;
+    Label11: TLabel;
+    Labelquntidade: TLabel;
+    Edit1Quantidade: TEdit;
+    Label13: TLabel;
+    Label12: TLabel;
+    SearchBoxCliente: TSearchBox;
+    SearchBoxNrPedido: TSearchBox;
+    SearchBoxProduto: TSearchBox;
+    procedure BitBtnFecharClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormPrincipal: TFormPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit_DataComponent;
+
+procedure TFormPrincipal.BitBtnFecharClick(Sender: TObject);
+begin
+  application.Terminate;
+end;
+
+end.

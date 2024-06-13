@@ -1,0 +1,16 @@
+program Teste_wk_pedido_venda;
+
+uses
+  Vcl.Forms,
+  Unit_princilal in 'fontes\Unit_princilal.pas' {Form1},
+  Unit_DataComponent in 'fontes\Unit_DataComponent.pas' {DataModule2: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TDataModule2, DataModule2);
+  Application.Run;
+end.

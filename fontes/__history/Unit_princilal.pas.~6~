@@ -1,0 +1,69 @@
+unit Unit_princilal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons, Data.DB,
+  Vcl.ExtCtrls, Vcl.Grids, Vcl.DBGrids, Vcl.WinXCtrls;
+
+type
+  TFormPrincipal = class(TForm)
+    GroupBox1: TGroupBox;
+    GroupBox2: TGroupBox;
+    GroupBox3: TGroupBox;
+    LabelCodigo: TLabel;
+    Edit2: TEdit;
+    LabelNome: TLabel;
+    BitBtn2: TBitBtn;
+    Edit3: TEdit;
+    Cidade: TLabel;
+    Edit4: TEdit;
+    LabelUF: TLabel;
+    BitBtn3: TBitBtn;
+    BitBtn4: TBitBtn;
+    Edit6: TEdit;
+    Edit7: TEdit;
+    Button1: TButton;
+    BitBtn6: TBitBtn;
+    DBGrid1: TDBGrid;
+    Label1: TLabel;
+    Edit9: TEdit;
+    Label2: TLabel;
+    Label3: TLabel;
+    Edit10: TEdit;
+    Label4: TLabel;
+    Edit11: TEdit;
+    BitBtn8: TBitBtn;
+    BitBtn9: TBitBtn;
+    Bevel1: TBevel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    Label11: TLabel;
+    Label14: TLabel;
+    Edit12: TEdit;
+    Label13: TLabel;
+    Label12: TLabel;
+    SearchBox1: TSearchBox;
+    SearchBox2: TSearchBox;
+    SearchBox3: TSearchBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormPrincipal: TFormPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit_DataComponent;
+
+end.
